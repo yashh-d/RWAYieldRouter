@@ -1,0 +1,28 @@
+{
+  "name": "xstocks-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "bootstrap": "tsx scripts/bootstrap-reserves.ts"
+  },
+  "dependencies": {
+    "@privy-io/react-auth": "^2.0.0",
+    "@privy-io/server-auth": "^1.18.0",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0",
+    "next": "14.2.18",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "^18",
+    "tsx": "^4.19.0",
+    "typescript": "6.0.3"
+  }
+}
