@@ -9,14 +9,17 @@
     "bootstrap": "tsx scripts/bootstrap-reserves.ts"
   },
   "dependencies": {
-    "@privy-io/react-auth": "^2.0.0",
+    "@privy-io/react-auth": "^2.25.0",
     "@privy-io/server-auth": "^1.18.0",
     "@solana/spl-token": "^0.4.8",
     "@solana/web3.js": "^1.95.0",
     "bs58": "^6.0.0",
+    "lucide-react": "^1.14.0",
     "next": "14.2.18",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-is": "^19.2.6",
+    "recharts": "^3.8.1"
   },
   "devDependencies": {
     "@types/node": "25.6.0",

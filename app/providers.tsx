@@ -22,7 +22,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
           },
         ],
         // Login methods — email is the cleanest default for fiat-onramp users
-        loginMethods: ["email", "google", "apple"],
+        loginMethods: ["email", "wallet", "google", "apple"],
         appearance: {
           theme: "light",
           accentColor: "#000000",
